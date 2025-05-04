@@ -77,9 +77,10 @@ def hyperparameter_tuning(X_train, y_train):
 
 def prediction_results(X_train, X_test, y_train, y_test, best_params_rf, best_params_xgb, best_params_lgbm, model1, model2, model3, charts=False):
     i = 0
+    parameters = [best_params_rf, best_params_xgb, best_params_lgbm]
     for m in [model1,model2,model3]:
         i+=1
-        m.set_params(**best_params_rf)
+        m.set_params(**parameters[i-1])
     
         m.fit(X_train, y_train)
     
