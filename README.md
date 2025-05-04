@@ -36,18 +36,18 @@ The key prediction results from the 3 algorithms for the test dataset are as sum
     <td>0.8363</td>
 </table>
 
-Figure 2 and 3 show the ROC curves and feature ranking results produced from XgBoost.
+Figure 1 and 2 show the ROC curves and feature ranking results produced from XgBoost.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/313063e5-044d-4bbf-b82c-1fb96ecb1787" alt="Diagram" width="350" height='300'/>
 </p>
-<p align="center"><em>Figure 2: Receiver Operating Curve - Prediction Performance of XgBoost.</em></p>
+<p align="center"><em>Figure 1: Receiver Operating Curve - Prediction Performance of XgBoost.</em></p>
 
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4be2ef68-aeb9-4476-bae6-45cf732e5579" alt="Diagram" width="1200" height='400'/>
 </p>
-<p align="center"><em>Figure 3: Ranking of Features in Order of Descending Importance By XgBoost.</em></p>
+<p align="center"><em>Figure 2: Ranking of Features in Order of Descending Importance By XgBoost.</em></p>
 
 
 ## Conclusion
